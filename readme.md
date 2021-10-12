@@ -2,7 +2,7 @@
 
 Please find attached all of the files needed to run my project.
 
-Note that after you start the server it will be running on port 3000 so for example the signup route can be accessed at `localhost:3000/auth/signin`.
+Note that after you start the server it will be running on port 3000 so for example the signup route can be accessed at `localhost:3000/auth/signup`.
 
 I have put together an API using express which is composed of the following routes:
 
