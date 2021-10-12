@@ -2,6 +2,8 @@
 
 Please find attached all of the files needed to run my project.
 
+Note that after you start the server it will be running on port 3000 so for example the signup route can be accessed at `localhost:3000/auth/signin`.
+
 I have put together an API using express which is composed of the following routes:
 
 1. POST /auth/signup - This route expects a username and a password and will enforce various rules including a minimum username length and password complexity. It will also verify that usernames are unique. Upon successfully POSTing to this endpoint a new user will be created in the redis data store.
