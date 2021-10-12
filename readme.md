@@ -15,5 +15,7 @@ Some points of note:
 - I have never used redis in a production environment and so may not have followed best practices
 - Given more time I would have liked to add some tests
 - I focused on ensuring clean architecture with a clear divide between each layer, e.g. controllers/business logic/data access while also meeting the projects requirements
+- I used express-validator to validate requests, express as a server framework and bcrypt for password encryption
+- I did not implement an actual auth system, e.g. providing a JWT or some kind of token upon successful login. It seemed out of scope for this project but could easily be implemented if needed.
 
 Please get in touch if you have any questions or issues running the project.
